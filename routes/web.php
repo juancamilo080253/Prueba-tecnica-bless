@@ -1,27 +1,19 @@
 <?php
 
+use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PedidosController;
+use App\Http\Controllers\ProductoController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('inicio');
-});
+Route::get('/', HomeController::class);
 
-Route::get('/productos', function(){
-    return view('productos');
-});
+Route::resource('/productos', ProductoController::class);
 
-Route::get('/cursos/{id}',function($id){
-    return "Bienvenido al curso: $id";
-});
-
-Route::get('/clientes', function () {
-    return view('clientes');
-});
+Route::resource('/clientes', ClienteController::class);
 
 Route::get('/inventario', function () {
     return view('inventario');
 });
 
-Route::get('/pedidos',function(){
-    return view('pedidos');
-});
+Route::resource('/pedidos', PedidosController::class);
