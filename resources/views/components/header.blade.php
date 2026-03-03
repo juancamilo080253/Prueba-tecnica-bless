@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-white border-bottom shadow-sm py-3 mb-4">
+<nav class="navbar navbar-expand-md bg-primary-subtle border-bottom shadow-sm py-3 mb-4">
     <div class="container">
         <a href="/" class="navbar-brand d-flex align-items-center fw-bold text-primary fs-4">
             <div class="bg-primary text-white rounded-3 p-1 me-2 d-flex align-items-center justify-content-center"

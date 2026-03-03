@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 class ProductoController extends Controller
 {
     public function index(){
-       return view('productos');
+       return view('productos.index');
     }
 
     public function create(){
-        return "Aqui se mostrara el formulario para un producto";
+        return view('productos.create');
     }
 
     public function store(){
@@ -19,7 +19,7 @@ class ProductoController extends Controller
     }
 
     public function show($producto){
-        return "Aqui se mostrara el producto $producto";
+        return "Aqui se mostrara el producto $producto"; 
     }
 
     public function edit($producto){

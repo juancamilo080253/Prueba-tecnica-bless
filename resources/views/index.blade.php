@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container mt-5">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-4 justify-content-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-4 justify-content-center">
 
             <div class="col">
                 <div class="card h-100 border-0 shadow-sm position-relative hover-lift">
@@ -69,7 +69,7 @@
                     </div>
                     <div class="card-body border-top bg-light py-2 text-center">
                         <h6 class="card-title mb-0">
-                            <a href="#" class="text-decoration-none fw-bold text-dark stretched-link">Reporte
+                            <a href="/reporte_ventas" class="text-decoration-none fw-bold text-dark stretched-link">Reporte
                                 Ventas</a>
                         </h6>
                     </div>

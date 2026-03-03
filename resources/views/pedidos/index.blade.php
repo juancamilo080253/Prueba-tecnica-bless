@@ -7,7 +7,7 @@
                 <h2 class="fw-bold mb-0 text-dark">Gestión de Pedidos</h2>
                 <p class="text-muted">Registro de ventas y detalles de facturación</p>
             </div>
-            <a href="#" class="btn btn-success px-4 shadow-sm fw-bold">
+            <a href="/pedidos/create" class="btn btn-success px-4 shadow-sm fw-bold">
                 <i class="fi fi-rr-shopping-cart-add me-2"></i> Nuevo Pedido
             </a>
         </div>
